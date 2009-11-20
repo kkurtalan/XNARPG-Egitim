@@ -17,13 +17,13 @@ namespace merhabadunya
    
     public class Game1 : Microsoft.Xna.Framework.Game
     {
-        GraphicsDeviceManager graphics; //grafik olaylarýný tutan deðiþkenimiz,sistem otomatik yaratýyor
-        SpriteBatch spriteBatch; //sprite'larý yöneten deðiþkenimiz,sistem otomatik yaratýyor
-        Texture2D kaplama; //sprite için gereken kaplamayý tutacak deðiþken
+        GraphicsDeviceManager graphics; //grafik olaylarini tutan degiskenimiz,sistem otomatik yaratiyor
+        SpriteBatch spriteBatch; //sprite'lari yoneten degiskenimiz,sistem otomatik yaratiyor
+        Texture2D kaplama; //sprite icin gereken kaplamayi tutacak degisken
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
-            Content.RootDirectory = "Content"; //materyal için klasör tanýmlýyoruz
+            Content.RootDirectory = "Content"; //materyal icin klasor tanimliyoruz
         }
 
        
@@ -39,15 +39,15 @@ namespace merhabadunya
         {
           
             spriteBatch = new SpriteBatch(GraphicsDevice);
-            kaplama = Content.Load<Texture2D>("top"); //AssetName'i top olan kaplamamýzý iliþkilendiriyoruz.
+            kaplama = Content.Load<Texture2D>("top"); //AssetName'i top olan kaplamamizi iliskilendiriyoruz.
           
         }
 
       
         protected override void UnloadContent()
         {
-            Content.Unload(); //Oyundan çýkýldýðýnda load ettiðimiz herþeyi serbest býrakýyoruz
-            kaplama.Dispose(); //Halihazýrda bir kaplama tutan deðiþkenimizi serbest býrakýyoruz
+            Content.Unload(); //Oyundan cikildiginde load ettigimiz herseyi serbest birakiyoruz
+            kaplama.Dispose(); //Halihazirda kaplama tutan degiskenimizi serbest birakiyoruz
         }
 
       
@@ -60,10 +60,10 @@ namespace merhabadunya
        
         protected override void Draw(GameTime gameTime)
         {
-            GraphicsDevice.Clear(Color.CornflowerBlue); //Ekraný temizliyoruz
-            spriteBatch.Begin(); //Çizime baþlýyoruz
-            spriteBatch.Draw(kaplama, new Vector2(20, 20), Color.White); //20,20 koordinatlarýnda bir sprite çizdiriyoruz
-            spriteBatch.End(); //Çizimi bitiriyoruz
+            GraphicsDevice.Clear(Color.CornflowerBlue); //Ekrani temizliyoruz
+            spriteBatch.Begin(); //Cizime basliyoruz
+            spriteBatch.Draw(kaplama, new Vector2(20, 20), Color.White); //20,20 koordinatlarinda bir sprite cizdiriyoruz
+            spriteBatch.End(); //Cizimi bitiriyoruz
             base.Draw(gameTime);
         }
     }
