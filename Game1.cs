@@ -62,7 +62,6 @@ namespace merhabadunya
         {
             GraphicsDevice.Clear(Color.CornflowerBlue); //Ekraný temizliyoruz
             spriteBatch.Begin(); //Çizime baþlýyoruz
-
             spriteBatch.Draw(kaplama, new Vector2(20, 20), Color.White); //20,20 koordinatlarýnda bir sprite çizdiriyoruz
             spriteBatch.End(); //Çizimi bitiriyoruz
             base.Draw(gameTime);
