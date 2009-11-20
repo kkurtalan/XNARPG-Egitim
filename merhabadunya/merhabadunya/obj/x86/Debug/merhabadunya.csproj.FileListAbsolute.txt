@@ -1,7 +1,0 @@
-C:\Users\Koray\Documents\Visual Studio 2008\Projects\merhabadunya\merhabadunya\bin\x86\Debug\Content\top.xnb
-C:\Users\Koray\Documents\Visual Studio 2008\Projects\merhabadunya\merhabadunya\bin\x86\Debug\merhabadunya.exe
-C:\Users\Koray\Documents\Visual Studio 2008\Projects\merhabadunya\merhabadunya\bin\x86\Debug\merhabadunya.pdb
-C:\Users\Koray\Documents\Visual Studio 2008\Projects\merhabadunya\merhabadunya\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\Koray\Documents\Visual Studio 2008\Projects\merhabadunya\merhabadunya\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
-C:\Users\Koray\Documents\Visual Studio 2008\Projects\merhabadunya\merhabadunya\obj\x86\Debug\merhabadunya.exe
-C:\Users\Koray\Documents\Visual Studio 2008\Projects\merhabadunya\merhabadunya\obj\x86\Debug\merhabadunya.pdb
