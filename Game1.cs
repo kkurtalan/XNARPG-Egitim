@@ -80,7 +80,7 @@ namespace merhabadunya
 
             base.Update(gameTime);
         }
-
+           
        
         protected override void Draw(GameTime gameTime)
         {
