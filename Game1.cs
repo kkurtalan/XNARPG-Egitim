@@ -22,7 +22,7 @@ namespace merhabadunya
        
 
         Texture2D[] tileResim = new Texture2D[2]; //Tile icin kullanacagimiz resimleri tutacak dizi degiskeni
-        const int haritaGenislik = 5; //cizdirecegimiz haritanin eninin kac adet tile resminden olusacagý
+        const int haritaGenislik = 5; //cizdirecegimiz haritanin eninin kac adet tile resminden olusacagi
         const int haritaYukseklik = 5; //cizdirecegimiz haritanin boyunun kac adet tile resminden olusacagi
 
         int[,] harita = new int[haritaGenislik, haritaYukseklik] { 
