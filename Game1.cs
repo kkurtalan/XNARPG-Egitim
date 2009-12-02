@@ -86,7 +86,7 @@ namespace merhabadunya
         {
             GraphicsDevice.Clear(Color.CornflowerBlue); //Ekrani temizliyoruz
             spriteBatch.Begin(); //Cizime basliyoruz
-
+              
             for (int y = 0; y < haritaYukseklik; y++)
                 //haritanin satir sayisi kadar dongu baslatiyoruz
             {
